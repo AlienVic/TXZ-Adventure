@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hotel</title>
+<link rel="stylesheet" type="text/css" href="css/hotel.css">
+
+<script language="javascript">
+function ShowDiv(s)
+    {
+        if(s>0)
+        {
+            document.getElementById('filter').style.display='block';
+           
+        }else{
+            document.getElementById('filter').style.display='none';
+            
+        }
+    }
+</script>
+
+</head>
+
+<body>
+<div class="AS-Attractions"> 
+	<header class="Rectangle-Copy">
+			<div class ="ACTIVITY-STORE">ACTIVITY STORE</div>
+  	</header>
+  <nav>
+  			<div class="Rectangle-Info" style = "position:absolute;left:140px;top:118px">
+			  <a class="Info" href="#">Sunday 4/12</a>
+			</div>
+	  		<div class="Rectangle-Info" style = "position:absolute;left:140px;top:176px">
+			  <a class="Info" href="#">Las Vegas,NV.USA</a>
+			</div>
+		    <div class="Rectangle-3-Cop">
+				
+				<ul class="Nav-Item-position">
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Attraction</a>
+			  		</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Tours</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Restanrants</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item" href="#">Hotels</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Flights</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Cars</a>
+					</li>
+			  	</ul>
+			</div>
+			<div class="Rectangle-Mark"></div>
+		    	
+		    
+		    <div class = "Show-Filters">Show Filters</div>
+	      	<div class = "Triangle" onClick="ShowDiv(0)"></div>
+	      	
+	      	<div id = "Filter" class = "Filter" style = "position:relative;left:136px;top:492px">
+	      		<span class = "Filter-font" style = "position:absolute;left:24px;top:14px">Price</span>
+	      		
+	      		<input style = "position:absolute;left:26px;top:46px" type="range" min="1" max="5" step="1" value="0" />
+      			<span class = "star-font" style = "position:absolute;left:24px;top:57px">$0</span>
+      			<span class = "star-font" style = "position:absolute;left:121px;top:57px">$2000</span>
+	      		
+	      		<span class = "Filter-font" style = "position:absolute;left:24px;top:94px">Star</span>
+	      		<div style = "position:relative;left:24px;top:125px">
+				  	
+				  	<input  type="checkbox" id="price-1" name="price">
+				  	<label for="price-1">1 star </label>
+					<input type="checkbox" id="price-2" name="price" >
+					<label for="price-2">2 stars</label>
+					<input type="checkbox" id="price-3" name="price" >
+					<label for="price-3">3 stars </label>
+					<input type="checkbox" id="star-4" name="price" >
+					<label for="star-4">4 stars </label>
+					<input type="checkbox" id="star-5" name="price" >
+					<label for="star-5">5 stars </label>
+					
+      			</div>
+	 			
+      			
+	      		<span class = "Filter-font" style = "position:absolute;left:24px;top:247px">Neighborhoods</span>
+	      		
+	      		<div style = "position:absolute;left:24px;top:277px">
+				  	
+				  	<input  type="checkbox" id="us" name="country">
+				  	<label for="us">The Strip</label>
+					<input type="checkbox" id="cn" name="country" >
+					<label for="cn">Paradise</label>
+					<input type="checkbox" id="ja" name="country" >
+					<label for="ja">Winchester</label>
+					<input type="checkbox" id="ko" name="country" >
+					<label for="ko">Downtown</label>
+     				<input type="checkbox" id="th" name="country" >
+					<label for="th">Spring Valley</label>
+      			</div>
+	      	</div>
+	      	
+		</nav>
+		
+		<div>
+			<span class = "Res-info-position" style = "position: absolute;left:410px;top:109px">315 Hotels in Las Vegas</span>
+			<span class = "Sort-by-Popularity" style = "position: absolute;left:410px;top:140px" onClick="">Sort by: Popularity</span>
+		</div>
+		
+		<div>
+			<div class="Rectangle-img" style="position:absolute;left: 410px;top: 172px;">
+				<img src = "img/pic1.png"  width = "220" height="149" alt="pic1" />
+
+				<a class = "Restaurant-Name">[Hotels Name]</a>
+				<div style="position:absolute;left: 585px;top: 16px;">
+					<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+				</div>
+				<div style="position:absolute;left: 244px;top: 41px;">
+					<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					<img src = "img/empty_star.png"  width = "12" height="12" alt="pic1">
+				</div>
+
+				<a class = "Res-info"> &nbsp;(947) &nbsp;&nbsp;|&nbsp;&nbsp;Double Room </a>
+				<a class = "Address">3600 S LasVegas</a>
+
+				<div class = "Price">$2000</div>
+				<div class = "Textarea">Free WiFi <br /> Breakfirst Include
+
+				</div>
+
+				<button class = "Reserve">BookNow</button>
+
+			</div>
+
+			<div class="Rectangle-img" style="position:absolute;left: 410px;top: 334px;">
+				<img src = "img/pic1.png"  width = "220" height="149" alt="pic1" />
+
+				<a class = "Restaurant-Name">[Hotels Name]</a>
+				<div style="position:absolute;left: 585px;top: 16px;">
+					<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+				</div>
+				<div style="position:absolute;left: 244px;top: 41px;">
+					<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					<img src = "img/empty_star.png"  width = "12" height="12" alt="pic1">
+				</div>
+
+				<a class = "Res-info"> &nbsp;(947) &nbsp;&nbsp;|&nbsp;&nbsp;Double Room </a>
+				<a class = "Address">3600 S LasVegas</a>
+
+				<div class = "Price">$200</div>
+				<div class = "Textarea">Free WiFi <br /> Breakfirst Include
+
+				</div>
+
+				<button class = "Reserve">BookNow</button>
+
+			</div>
+
+
+			<div class="Rectangle-img" style="position:absolute;left: 410px;top: 496px;">
+				<img src = "img/pic1.png"  width = "220" height="149" alt="pic1" />
+
+				<a class = "Restaurant-Name">[Hotels Name]</a>
+				<div style="position:absolute;left: 585px;top: 16px;">
+					<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+				</div>
+				<div style="position:absolute;left: 244px;top: 41px;">
+					<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					<img src = "img/empty_star.png"  width = "12" height="12" alt="pic1">
+				</div>
+
+				<a class = "Res-info"> &nbsp;(947) &nbsp;&nbsp;|&nbsp;&nbsp;Double Room </a>
+				<a class = "Address">3600 S LasVegas</a>
+
+				<div class = "Price">$200</div>
+				<div class = "Textarea">Free WiFi <br /> Breakfirst Include
+
+				</div>
+
+				<button class = "Reserve">BookNow</button>
+
+			</div>
+		
+		
+		</div>
+		
+	
+  <footer></footer>
+</div>
+
+
+</body>
+</html>

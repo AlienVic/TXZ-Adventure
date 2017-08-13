@@ -1,0 +1,455 @@
+@charset "utf-8";
+/* CSS Document */
+
+.AS-Attractions {
+	
+	position: relative;
+	left: 28px;
+	width: 1440px;
+	height: 1024px;
+	opacity:0.9;
+	background-color: #ffffff;
+}
+
+.Rectangle-Copy {
+  width: 1440px;
+  height: 60px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.ACTIVITY-STORE {
+	position: absolute;
+	left: 638px;
+	top: 19px;
+	width: 170px;
+	height: 23px;
+	font-family: CircularStd;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: left;
+	color: #24262b;
+}
+
+.ACTIVITY-STORE.text-style-1 {	
+	letter-spacing: normal;
+}
+
+.Res-info-position {
+  width: 275px;
+  height: 23px;
+  font-family: CircularStd;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  color: #24262b;
+}
+
+.Sort-by-Popularity {
+  width: 130px;
+  height: 18px;
+  font-family: CircularStd;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  color: #03b79f;
+}
+
+.Rectangle-Info {
+    width: 186px;
+    height: 48px;
+    border-radius: 4px;
+	list-style: none;
+    background-color: #f9f9f9;
+	text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Airport-depart {
+    width: 69px;
+    height: 48px;
+    border-radius: 4px;
+	list-style: none;
+    background-color: #f9f9f9;
+	text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Airport-arrive {
+    width: 69px;
+    height: 48px;
+    border-radius: 4px;
+	list-style: none;
+    background-color: #f9f9f9;
+	text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.TO {
+	position: absolute;
+	left: 226px;
+	top: 193px;
+  	width: 16px;
+	height: 14px;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 600;
+	text-align:center;
+	color: #24262b;
+}
+
+.ROUND-TRIP {
+	position: absolute;
+	left: 141px;
+	top: 85px;
+  width: 85px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  color: #818181;
+}
+
+.ONE-WAY {
+	position: absolute;
+	left: 267px;
+	top: 85px;
+  width: 80px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  color: #03b79f;
+}
+
+.Info {
+  	width: 146px;
+    height: 20px;
+	font-family: CircularStd;
+ 	font-size: 16px;
+	font-weight: 500;
+	line-height: 48px;
+	text-decoration:none;
+	color: #03b79f;
+}
+
+.Rectangle-Mark {
+	position: absolute;
+	right: 1100px;
+	top: 415px;
+  	width: 4px;
+  	height: 36px;
+	display:block;
+  	background: #03b89f;
+}
+
+.Rectangle-img {
+    width: 620px;
+    height: 134px;
+    background-color: #ffffff;
+  	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+	border: solid 1px #f4f4f4;
+}
+.Airline-Name {
+	position:absolute;
+	left: 98px;
+	top:22px;
+  	width: 200px;
+	height: 15px;
+	font-family: CircularStd;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	color: #24262b;
+}
+.Res-info {
+	position:absolute;
+	left: 98px;
+	top:46px;
+    width: 180px;
+	height: 23px;
+	font-family: CircularStd;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	color: #24262b;
+}
+
+.Res-info-arr {
+	position:absolute;
+	left: 244px;
+	top:46px;
+    width: 180px;
+	height: 23px;
+	font-family: CircularStd;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	color: #24262b;
+}
+
+.Time {
+	position:absolute;
+	left: 399px;
+	top:54px;
+  width: 100px;
+  height: 13px;
+  font-family: CircularStd;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: left;
+  color: #818181;
+}
+.Area {
+	position:absolute;
+	left: 98px;
+	top: 71px;
+	  width: 105px;
+  height: 18px;
+  font-family: CircularStd-Book;
+  font-size: 10px;
+  line-height: 1.8;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #818181;
+}
+.Area-arr {
+	position:absolute;
+	left: 244px;
+	top: 71px;
+	  width: 105px;
+  height: 18px;
+  font-family: CircularStd-Book;
+  font-size: 10px;
+  line-height: 1.8;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #818181;
+}
+
+.Reserve {
+	position:absolute;
+	left: 522px;
+	top: 89px;
+ 	width: 82px;
+  	height: 29px;
+  	border-radius: 4px;
+	padding: 0px;
+	border:0px solid;
+  	background-color: #03b89f;
+	font-family: CircularStd;
+  	font-size: 11px;
+  	font-weight: bold;
+  	text-align: center;
+	color: #ffffff;
+}
+
+
+.Nav-Item-position {
+	position: absolute;
+	right: 1130px;
+	top: 223px;
+	width: 120px;
+	height: 250px;
+}
+
+
+.Nav-Item {
+	line-height: 43px;
+	font-family: CircularStd;
+	font-size: 21px;
+	font-weight: bold;
+	display:block;
+	text-decoration:none;
+	color: #03b79f;
+}
+
+.Nav-Item-false {
+	line-height: 43px;
+	font-size: 21px;
+	font-family: CircularStd;
+	font-weight: bold;	
+	text-decoration:none;
+	display:block;
+	color: #000000;
+}
+
+.Nav-List {
+	list-style: none;
+	text-align: right;
+	width: 120px;
+	height: 43px;
+
+}
+
+.Show-Filters {
+	position: absolute;
+	left: 220px;
+	top: 525px;
+  width: 75px;
+  height: 15px;
+  font-family: CircularStd;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  color: #03b79f;
+}
+
+.Triangle {
+	position: absolute;
+	left: 299.8px;
+	top: 529.3px;
+  	width:0;
+    height:0;
+    border-width:0 6.25px 6.25px;
+    border-style:solid;
+    border-color:transparent transparent #03b89f;
+
+}
+
+
+.Filter {
+  width: 174px;
+  height: 428px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Filter-font {
+  width: 80px;
+  height: 20px;
+  font-family: CircularStd;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  color: #24262b;
+}
+
+.Clear-Filter {
+  width: 56px;
+  height: 14px;
+  font-family: CircularStd-Book;
+  font-size: 11px;
+  text-align: left;
+  color: #03b79f;
+}
+
+.Oval-Copy {
+  width: 10px;
+  height: 10px;
+  background-color: #14cfa4;
+  border: solid 1px #f9f9f9;
+}
+
+
+.star-font {
+  font-family: CircularStd-Book;
+  font-size: 11px;
+  text-align: left;
+  color: #818181;
+}
+
+.Address {
+	position: absolute;
+	left: 244px;
+	top: 62px;
+  width: 225px;
+  height: 18px;
+  font-family: CircularStd-Book;
+  font-size: 10px;
+  line-height: 1.8;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #818181;
+}
+
+.Price {
+	position: absolute;
+	right: 17px;
+	top: 46px;
+  width: 60px;
+  height: 23px;
+  font-family: CircularStd;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  color: #ff5252;
+}
+
+.Flights-List {
+	list-style: none;
+}
+.Img-airlines {
+	position: absolute;
+	left: 13.1px;
+	top: 30px;
+  width: 56.2px;
+  height: 56.2px;
+}
+
+
+input[type='checkbox'] {
+	display: none;
+}
+
+input[type="checkbox"]+label {
+    display: inline-block;
+    width: 80%;
+    font-family: CircularStd-Book;
+	font-size: 11px;
+	text-align: left;
+	color: #818181;
+}
+
+label::before {
+	content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+	margin-bottom: 5px;
+	margin-right: 8px;
+  	border-radius: 2px;
+	vertical-align: top;
+  	border: solid 1px #d8d8d8;
+}
+
+input[type="checkbox"]:checked+label::before{
+  border-radius: 2px;
+  background-color: #03b89f;
+  border: solid 1px #f9f9f9;
+}
+
+
+
+input[type="range"] {  
+    display: block;
+    -webkit-appearance: none;
+    background-color: #bdc3c7;
+    width: 121px;
+    height: 3px;
+    border-radius: 5px;
+    margin: 0 auto;
+    outline: 0;
+}
+input[type="range"]::-webkit-slider-thumb {  
+  -webkit-appearance: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  width: 10px;
+  height: 10px;
+  background-color: #03b89f;
+
+}
+ input[type="range"]::-webkit-slider-thumb:hover {
+ background-color: white;
+ border: 2px solid #03b89f;
+}
+input[type="range"]::-webkit-slider-thumb:active {  
+ transform: scale(2);
+}
+
+

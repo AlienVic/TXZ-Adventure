@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cars</title>
+<link rel="stylesheet" type="text/css" href="css/Cars.css">
+
+<script language="javascript">
+function ShowDiv(s)
+    {
+        if(s>0)
+        {
+            document.getElementById('filter').style.display='block';
+           
+        }else{
+            document.getElementById('filter').style.display='none';
+            
+        }
+    }
+</script>
+
+</head>
+
+<body>
+<div class="AS-Attractions"> 
+	<header class="Rectangle-Copy">
+			<div class ="ACTIVITY-STORE">ACTIVITY STORE</div>
+  	</header>
+  <nav>
+  			<div class="Rectangle-Info" style = "position:absolute;left:140px;top:118px">
+			  <a class="Info" href="#">Sunday 4/12</a>
+			</div>
+	  		<div class="Rectangle-Info" style = "position:absolute;left:140px;top:176px">
+			  <a class="Info" href="#">Las Vegas,NV.USA</a>
+			</div>
+		    <div class="Rectangle-3-Cop">
+				
+				<ul class="Nav-Item-position">
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Attraction</a>
+			  		</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Tours</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Restanrants</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Hotels</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Flights</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item" href="#">Cars</a>
+					</li>
+			  	</ul>
+			</div>
+			<div class="Rectangle-Mark"></div>
+		    	
+		    
+		    <div class = "Show-Filters">Show Filters</div>
+	      	<div class = "Triangle" onClick="ShowDiv(0)"></div>
+	      	
+	      	<div id = "Filter" class = "Filter" style = "position:relative;left:136px;top:492px">
+	      		<span class = "Filter-font" style = "position:absolute;left:24px;top:14px">Car Type</span>
+	      		<div style = "position:relative;left:24px;top:39px">
+				  	
+				  	<input  type="checkbox" id="price-1" name="price">
+				  	<label for="price-1">Small </label>
+					<input type="checkbox" id="price-2" name="price" >
+					<label for="price-2">Medium</label>
+					<input type="checkbox" id="price-3" name="price" >
+					<label for="price-3">Large </label>
+					<input type="checkbox" id="suv" name="price" >
+					<label for="suv">SUV </label>
+					<input type="checkbox" id="lux" name="price" >
+					<label for="lux">Luxury </label>
+					<input type="checkbox" id="van" name="price" >
+					<label for="van">Van </label>
+					
+      			</div>
+	      		<span class = "Filter-font" style = "position:absolute;left:24px;top:188px">Price</span>
+	 			<input style = "position:absolute;left:26px;top:220px" type="range" min="1" max="5" step="1" value="0" />
+      			<span class = "star-font" style = "position:absolute;left:24px;top:231px">$0</span>
+      			<span class = "star-font" style = "position:absolute;left:121px;top:231px">$500</span>
+      			
+	      		<span class = "Filter-font" style = "position:absolute;left:24px;top:268px">Agency</span>
+	      		<div style = "position:absolute;left:24px;top:295px">
+				  	
+				  	<input  type="checkbox" id="us" name="country">
+				  	<label for="us">American</label>
+					<input type="checkbox" id="cn" name="country" >
+					<label for="cn">Chinese</label>
+					<input type="checkbox" id="ja" name="country" >
+					<label for="ja">Japanese</label>
+					<input type="checkbox" id="ko" name="country" >
+					<label for="ko">Korean</label>
+     				<input type="checkbox" id="th" name="country" >
+					<label for="th">Thai</label>
+      			</div>
+	      	</div>
+	      	
+		</nav>
+		
+		<div>
+			<span class = "Res-info-position" style = "position: absolute;left:410px;top:109px">43 Cars available in Las Vegas, NV</span>
+			<span class = "Sort-by-Popularity" style = "position: absolute;left:410px;top:140px" onClick="">Sort by: Price</span>
+		</div>
+		
+		<ul class = "Cars-List">
+			<li>
+				<div class="Rectangle-img" style="position:absolute;left: 410px;top: 172px;">
+					<div class="ImgBox">
+							<img class = "Img-Cars" src = "img/Cars.png" width = "220" height = "128" alt="cars" />
+					</div>
+
+					<a class = "Restaurant-Name">Economic</a>
+					<div style="position:absolute;left: 585px;top: 16px;">
+						<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					</div>
+
+
+					<a class = "Res-info"> Kia Rio or Similar &nbsp;&nbsp;|&nbsp;&nbsp;5 people&nbsp;&nbsp;|&nbsp;&nbsp; 2 bags </a>
+
+					<div class = "Textarea">[Cars pickup/drop off Address] </div>
+					<div class = "Price">$200</div>
+					<button class = "Reserve">Rent Now</button>
+
+				</div>
+			</li>
+				
+			<li>
+				<div class="Rectangle-img" style="position:absolute;left: 410px;top: 327px;">
+					<div class="ImgBox">
+							<img class = "Img-Cars" src = "img/Cars.png" width = "220" height = "128" alt="cars" />
+					</div>
+					<img class = "Img-Agency" src = "img/agency.png"  align="absmiddle" width = "97" height="97" alt="pic1" />
+
+					<a class = "Restaurant-Name">Economic</a>
+					<div style="position:absolute;left: 585px;top: 16px;">
+						<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					</div>
+
+
+					<a class = "Res-info"> Kia Rio or Similar &nbsp;&nbsp;|&nbsp;&nbsp;5 people&nbsp;&nbsp;|&nbsp;&nbsp; 2 bags </a>
+
+					<div class = "Textarea">[Cars pickup/drop off Address] </div>
+					<div class = "Price">$200</div>
+					<button class = "Reserve">Rent Now</button>
+
+				</div>
+			</li>
+			
+			<li>
+					<div class="Rectangle-img" style="position:absolute;left: 410px;top: 484px;">
+					<div class="ImgBox">
+							<img class = "Img-Cars" src = "img/Cars.png" width = "220" height = "128" alt="cars" />
+					</div>
+					<img class = "Img-Agency" src = "img/agency.png"  align="absmiddle" width = "97" height="97" alt="pic1" />
+
+					<a class = "Restaurant-Name">Economic</a>
+					<div style="position:absolute;left: 585px;top: 16px;">
+						<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					</div>
+
+
+					<a class = "Res-info"> Kia Rio or Similar &nbsp;&nbsp;|&nbsp;&nbsp;5 people&nbsp;&nbsp;|&nbsp;&nbsp; 2 bags </a>
+
+					<div class = "Textarea">[Cars pickup/drop off Address] </div>
+					<div class = "Price">$200</div>
+					<button class = "Reserve">Rent Now</button>
+
+				</div>
+				
+			</li>
+		
+		</ul>
+		
+		
+		
+		
+		
+		
+		
+  <footer></footer>
+</div>
+
+
+</body>
+</html>

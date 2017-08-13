@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Attractions</title>
+<link rel="stylesheet" type="text/css" href="css/attraction.css">
+
+<script language="javascript">
+function ShowDiv(s)
+    {
+        if(s>0)
+        {
+            document.getElementById('filter').style.display='block';
+           
+        }else{
+            document.getElementById('filter').style.display='none';
+            
+        }
+    }
+</script>
+
+</head>
+
+<body>
+<div class="AS-Attractions"> 
+	<header class="Rectangle-Copy">
+			<div class ="ACTIVITY-STORE">ACTIVITY STORE</div>
+  	</header>
+  <nav>
+	  		<div class="Rectangle-3">
+			  <a class="Las-Vegas-NV-USA" href="#">Las Vegas,NV.USA</a>
+			</div>
+		    <div class="Rectangle-3-Cop">
+				
+				<ul class="Nav-Item-position">
+					<li class="Nav-List">
+						 <a class="Nav-Item" href="#">Attraction</a>
+			  		</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Tours</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Restarauts</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Hotels</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Flights</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Cars</a>
+					</li>
+			  	</ul>
+			</div>
+			<div class="Rectangle-3-Copy"></div>
+		    <div class="Rectangle-3-Copy-3" style = "display: true" ></div>	
+		    
+		    <div class = "Show-Filters">Show Filters</div>
+	      	<div class = "Triangle" onClick="ShowDiv(0)"></div>
+	      	
+	      	<div id = "filter" class = "filter" style = "position:relative;left:136px;top:492px">
+	      		<span class = "Filter-font" style = "position:absolute;left:24px;top:14px">Rating</span>
+	 			<input style = "position:relative;left:0px;top:42px" type="range" min="1" max="5" step="1" value="0" />
+      			<span class = "star-font" style = "position:absolute;left:24px;top:56px">1 star</span>
+      			<span class = "star-font" style = "position:absolute;left:121px;top:56px">5 star</span>
+	      		<span class = "Filter-font" style = "position:absolute;left:24px;top:93px">Duration</span>
+	      		<div style = "position:relative;left:24px;top:117px">
+				  	
+				  	<input  type="checkbox" id="duration-1" name="duration">
+				  	<label for="duration-1">less than 1 hour</label>
+					<input type="checkbox" id="duration-2" name="duration" >
+					<label for="duration-2">1 - 3 hours</label>
+					<input type="checkbox" id="duration-3" name="duration" >
+					<label for="duration-3">more than 3 hours</label>
+					
+      			</div>
+	      	</div>
+	      	
+		</nav>
+		
+		<div>
+			<span class = "FEATURED" style = "position: absolute;left:410px;top:141px">FEATURED</span>
+			<span class = "See-All" style = "position: absolute;right:410px;top:143px" onClick="">See All</span>
+		</div>
+		
+		
+		<div class="Rectangle-65-Copy-6">
+			<img src="img/pic1.png"  width = "620" height="230" alt="pic1" />
+		</div>
+		
+		<div class="Rectangle-65-Copy-7">
+			<img src="img/pic_2.png"  width = "380" height="184" alt="pic_2" />
+		</div>
+		
+		<div class="Rectangle-65-Copy-9">
+		  <img src="img/pic_3.png"  width = "220" height="184" alt="pic_3" />
+		</div>
+		
+		<div>
+			<span class = "FEATURED" style = "position: absolute;left:410px;top:650px">HIGHLY RATED</span>
+			<span class = "See-All" style = "position: absolute;right:410px;top:650px" onClick="">See All</span>
+		</div>
+		<div class="Rectangle-65-Copy-8">
+			<img src="img/pic4.png"  width = "300" height="214" alt="pic4" />
+		</div>
+		
+		<div class="Rectangle-65-Copy-8-2">
+		  <img src="img/pic5.png"  width = "300" height="214" alt="pic5" />
+		</div>
+		
+		<div class="Rectangle-65-Copy-6" style = "position: absolute;left:410px;top:909px">
+		  <img src="img/pic1.png"  width = "620" height="230" alt="pic1" />
+		</div>
+		
+  <footer></footer>
+</div>
+
+
+</body>
+</html>

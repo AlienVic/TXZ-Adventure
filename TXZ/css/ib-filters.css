@@ -1,0 +1,360 @@
+@charset "utf-8";
+
+.Canvas {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+  	width: 1440px;
+	height: 1024px;
+	background-color: #f9f9f9;
+}
+.NAVIGATION {
+	position: fixed;
+	top: 0px;
+	margin-top: auto;
+  	width: 1440px;
+  	height: 64px;
+  	background-color: #ffffff;
+	z-index: 10000;
+  	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.NAVtext {
+	position: absolute;
+	left: 656px;
+  	width: 133px;
+  	height: 23px;
+  	font-family: CircularStd;
+  	font-size: 18px;
+  	font-weight: bold;
+  	letter-spacing: 2px;
+  	text-align: center;
+  	color: #24262b;
+}
+
+.NAVtext.text-style-1 {
+  letter-spacing: normal;
+}
+
+.Date-List {
+	position: absolute;
+	top: 0px;
+	width: 176px;
+	height: 1024px;
+	background-color: #ffffff;
+}
+.Nav-Item-position {
+	position: relative;
+	top:155px;
+	width: 176px;
+	height: 1024px;
+	margin:0;
+	padding:0;
+}
+
+.Rectangle {
+	list-style: none;
+	text-align: right;
+  	width: 176px;
+  	height: 72px;
+  	object-fit: contain;
+    background-color: #f9f9f9;
+}
+.Rectangle-def {
+	list-style: none;
+	text-align: right;
+  	width: 176px;
+  	height: 72px;
+  	object-fit: contain;
+    background-color: #ffffff;
+}
+
+.Info {
+	width: 176px;
+  	height: 72px;
+}
+
+.Date {
+	position:absolute;
+	top: 13px;
+	right: 36px;
+  	width: 100px;
+  	height: 30px;
+  	font-family: CircularStd;
+  	font-size: 24px;
+	text-decoration:none;
+  	font-weight: bold;
+  	text-align: right;
+  	color: #24262b;
+}
+
+.Position {
+	position:relative;
+	top: 45px;
+	right: 36px;
+  	width: 100px;
+  	height: 15px;
+  	font-family: CircularStd-Book;
+  	font-size: 12px;
+	text-decoration:none;
+  	text-align: right;
+  	color: #03b79f;
+}
+.Position-def {
+	position:relative;
+	top: 45px;
+	right: 36px;
+  width: 100px;
+  height: 15px;
+  font-family: CircularStd-Book;
+  font-size: 12px;
+  text-align: left;
+  color: #9b9b9b;
+}
+.Date-def {
+	position:relative;
+	top: 13px;
+	right: 36px;
+  	width: 100px;
+  	height: 30px;
+  	font-family: CircularStd;
+	text-decoration:none;
+  	font-size: 24px;
+  	font-weight: bold;
+  	text-align: right;
+  	color: #9b9b9b;
+}
+
+.Price {
+	position:absolute;
+	bottom: 30px;
+	right: 36px;
+  	width: 88px;
+  	height: 30px;
+  	font-family: CircularStd;
+  	font-size: 24px;
+  	font-weight: bold;
+	text-align: right;
+  	color: #ff5252;
+}
+
+.DayPrice {
+	position:absolute;
+	left: 250px;
+	top: 97px;
+  width: 76px;
+  height: 27px;
+  font-family: CircularStd;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: left;
+  color: #ff5252;
+}
+
+
+
+.Total {
+	position:absolute;
+	bottom: 61px;
+	right: 36px;
+	width: 100px;
+  height: 15px;
+  font-family: CircularStd-Book;
+  font-size: 12px;
+  text-align: right;
+  color: #24262b;
+}
+
+.EDIT-DATES {
+	position:absolute;
+	bottom: 61px;
+	right: 36px;
+  width: 58px;
+  height: 13px;
+  font-family: CircularStd;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: left;
+  color: #9b9b9b;
+}
+
+
+.content {
+	position: absolute;
+	left: 650px;
+	top: 64px;
+	width: 830px;
+	height: 960px;
+	background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  	box-shadow: 0 7px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.Attraction {
+	position: absolute;
+	top:25px;
+	left:60px;
+	width: 160px;
+  	height: 48px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Rect-po {
+	position: absolute;
+	top:25px;
+	left:240px;
+	width: 300px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.Text-att {
+	position: relative;
+	top: 13px;
+	left: 16px;
+  width: 83px;
+  height: 20px;
+  font-family: CircularStd;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  color: #03b79f;
+}
+
+.in {
+	position: relative;
+	top: 40px;
+	left: 223px;
+  width: 14px;
+  height: 20px;
+  font-family: CircularStd;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  color: #24262b;
+}
+
+.Rectangle-img {
+    width: 592px;
+    height: 149px;
+    background-color: #ffffff;
+  	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+	border: solid 1px #f4f4f4;
+}
+.Name {
+	position:absolute;
+	left: 264px;
+	top:14px;
+  width: 189px;
+  height: 23px;
+  font-family: CircularStd;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  color: #24262b;
+}
+
+.layer {
+	position:absolute;
+	left: 345px;
+	top: 44px;
+  width: 200px;
+  height: 13px;
+  font-family: CircularStd-Book;
+  font-size: 10px;
+  text-align: left;
+  color: #fc642d;
+}
+
+.Textarea {
+	position:absolute;
+	left: 264px;
+	top: 73px;
+  width: 294.3px;
+  height: 58px;
+  font-family: CircularStd-Book;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+	word-break: break-all;
+	overflow: hidden;
+  text-align: left;
+  color: #818181;
+}
+
+.MAP-VIEW {
+	position:absolute;
+	left: 512px;
+	top: 106px;
+  width: 57px;
+  height: 14px;
+  font-family: CircularStd;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: left;
+  color: #03b79f;
+}
+
+.add {
+	position:absolute;
+	left: 250px;
+	top: 888px;
+  width: 320px;
+  height: 80px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+  border: solid 2px #d8d8d8;
+}
+
+.Droptext {
+	position:absolute;
+	left: 65px;
+	top: 31px;
+  width: 189px;
+  height: 18px;
+  font-family: CircularStd;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  color: #9b9b9b;
+}
+.morning {
+	
+	position:absolute;
+	left: 250px;
+	top: 262px;
+	width: 320px;
+  height: 116px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+.pictext {
+	width: 119px;
+  height: 23px;
+  font-family: CircularStd;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Reserve {
+	position:absolute;
+	left: 251px;
+	top: 10px;
+ 	width: 75px;
+	height: 24px;
+	background-color: #ff5252;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  	
+	padding: 0px;
+	border:0px solid;
+	font-family: CircularStd;
+  	font-size: 11px;
+  	font-weight: bold;
+  	text-align: center;
+	color: #ffffff;
+}
+
+

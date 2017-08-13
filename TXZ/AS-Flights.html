@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hotel</title>
+<link rel="stylesheet" type="text/css" href="css/Flights.css">
+
+<script language="javascript">
+function ShowDiv(s)
+    {
+        if(s>0)
+        {
+            document.getElementById('filter').style.display='block';
+           
+        }else{
+            document.getElementById('filter').style.display='none';
+            
+        }
+    }
+</script>
+
+</head>
+
+<body>
+<div class="AS-Attractions"> 
+	<header class="Rectangle-Copy">
+			<div class ="ACTIVITY-STORE">ACTIVITY STORE</div>
+  	</header>
+  <nav>
+  			<p class = "ROUND-TRIP">ROUND TRIP</p>
+  			<p class = "ONE-WAY">ONE WAY</p>
+  			
+  			<div class="Rectangle-Info" style = "position:absolute;left:140px;top:118px">
+			  <a class="Info" href="#">Sunday 4/12</a>
+			</div>
+  			<div>
+  				<div class="Airport-depart" style = "position:absolute;left:140px;top:176px">
+				  <a class="Info" href="#">JFK</a>
+				</div>
+				<a class = "TO">TO</a>
+				<div class="Airport-arrive" style = "position:absolute;left:258px;top:176px">
+				  <a class="Info" href="#">Las</a>
+				</div>
+  			</div>
+	  		
+	    
+		    <div class="Rectangle-3-Cop">
+				
+				<ul class="Nav-Item-position">
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Attraction</a>
+			  		</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Tours</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Restanrants</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Hotels</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item" href="#">Flights</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Cars</a>
+					</li>
+			  	</ul>
+			</div>
+			<div class="Rectangle-Mark"></div>
+		    	
+		    
+		    <div class = "Show-Filters">Show Filters</div>
+	      	<div class = "Triangle" onClick="ShowDiv(0)"></div>
+	      	
+	      	<div id = "Filter" class = "Filter" style = "position:relative;left:136px;top:492px">
+	      		<span class = "Filter-font" style = "position:absolute;left:24px;top:14px">Stops</span>
+	      		<div style = "position:relative;left:24px;top:44px">
+				  	
+				  	<input  type="checkbox" id="price-1" name="price">
+				  	<label for="price-1">1 star </label>
+					<input type="checkbox" id="price-2" name="price" >
+					<label for="price-2">2 stars</label>
+					<input type="checkbox" id="price-3" name="price" >
+					<label for="price-3">3 stars </label>
+					
+					
+      			</div>
+	      		
+	      		<span class = "Filter-font" style = "position:absolute;left:24px;top:125px">Price</span>
+	      		
+	      		<input style = "position:absolute;left:26px;top:157px" type="range" min="1" max="5" step="1" value="0" />
+      			<span class = "star-font" style = "position:absolute;left:24px;top:168px">$0</span>
+      			<span class = "star-font" style = "position:absolute;left:121px;top:168px">$2000</span>
+	      		
+	      		
+	      		
+	 			
+      			
+	      		<span class = "Filter-font" style = "position:absolute;left:24px;top:205px">Airlines</span>
+	      		
+	      		<div style = "position:absolute;left:24px;top:230px">
+				  	
+				  	<input  type="checkbox" id="us" name="country">
+				  	<label for="us">The Strip</label>
+					<input type="checkbox" id="cn" name="country" >
+					<label for="cn">Paradise</label>
+					<input type="checkbox" id="ja" name="country" >
+					<label for="ja">Winchester</label>
+					<input type="checkbox" id="ko" name="country" >
+					<label for="ko">Downtown</label>
+     				<input type="checkbox" id="th" name="country" >
+					<label for="th">Spring Valley</label>
+     			
+     				<input type="checkbox" id="star-4" name="price" >
+					<label for="star-4">4 stars </label>
+					<input type="checkbox" id="star-5" name="price" >
+					<label for="star-5">5 stars </label>
+     				<input type="checkbox" id="star-6" name="price" >
+					<label for="star-6">5 stars </label>
+      			</div>
+	      	</div>
+	      	
+		</nav>
+		
+		<div>
+			<span class = "Res-info-position" style = "position: absolute;left:410px;top:109px">315 Hotels in Las Vegas</span>
+			<span class = "Sort-by-Popularity" style = "position: absolute;left:410px;top:140px" onClick="">Sort by: Popularity</span>
+		</div>
+		
+		<ul class = "Flights-List">
+			<li>
+				<div class="Rectangle-img" style="position:absolute;left: 410px;top: 172px;">
+					
+					<img class = "Img-airlines" src = "img/airlines.png" width = "56" height = "56" alt="cars" />
+					
+
+					<a class = "Airline-Name">Economic &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Flight# CX888</a>
+					<div style="position:absolute;left: 585px;top: 16px;">
+						<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					</div>
+
+
+					<a class = "Res-info"> 10:30 AM JFK</a>
+					<a class = "Area">New York City, NY</a>
+					
+					
+					<a class = "Res-info-arr"> 2:00 PM Las</a>
+					<a class = "Area-arr">Las Vegas, NV</a>
+					
+					<a class = "Time"> 5h 4m &nbsp;&nbsp;&nbsp;&nbsp; Nonstop</a>
+					<div class = "Price">$200</div>
+					<button class = "Reserve">Book Now</button>
+
+				</div>
+			</li>
+				
+			<li>
+				<div class="Rectangle-img" style="position:absolute;left: 410px;top: 314px;">
+					
+					<img class = "Img-airlines" src = "img/airlines.png" width = "56" height = "56" alt="cars" />
+					
+
+					<a class = "Airline-Name">Economic &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Flight# CX888</a>
+					<div style="position:absolute;left: 585px;top: 16px;">
+						<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					</div>
+
+
+					<a class = "Res-info"> 10:30 AM JFK</a>
+					<a class = "Area">New York City, NY</a>
+					
+					
+					<a class = "Res-info-arr"> 2:00 PM Las</a>
+					<a class = "Area-arr">Las Vegas, NV</a>
+					
+					<a class = "Time"> 5h 4m &nbsp;&nbsp;&nbsp;&nbsp; Nonstop</a>
+					<div class = "Price">$200</div>
+					<button class = "Reserve">Book Now</button>
+
+				</div>
+			</li>
+			
+			<li>
+				<div class="Rectangle-img" style="position:absolute;left: 410px;top: 456px;">
+					
+					<img class = "Img-airlines" src = "img/airlines.png" width = "56" height = "56" alt="cars" />
+					
+
+					<a class = "Airline-Name">Economic &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Flight# CX888</a>
+					<div style="position:absolute;left: 585px;top: 16px;">
+						<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+					</div>
+
+
+					<a class = "Res-info"> 10:30 AM JFK</a>
+					<a class = "Area">New York City, NY</a>
+					
+					
+					<a class = "Res-info-arr"> 2:00 PM Las</a>
+					<a class = "Area-arr">Las Vegas, NV</a>
+					
+					<a class = "Time"> 5h 4m &nbsp;&nbsp;&nbsp;&nbsp; Nonstop</a>
+					<div class = "Price">$200</div>
+					<button class = "Reserve">Book Now</button>
+
+				</div>
+			</li>
+		
+		</ul>
+		
+	
+  <footer></footer>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Restaurants</title>
+<link rel="stylesheet" type="text/css" href="css/restaurants.css">
+
+<script language="javascript">
+function ShowDiv(s)
+    {
+        if(s>0)
+        {
+            document.getElementById('filter').style.display='block';
+           
+        }else{
+            document.getElementById('filter').style.display='none';
+            
+        }
+    }
+</script>
+
+</head>
+
+<body>
+<div class="AS-Attractions"> 
+	<header class="Rectangle-Copy">
+			<div class ="ACTIVITY-STORE">ACTIVITY STORE</div>
+  	</header>
+  <nav>
+  			<div class="Rectangle-Info" style = "position:absolute;left:140px;top:118px">
+			  <a class="Info" href="#">Sunday 4/12</a>
+			</div>
+	  		<div class="Rectangle-Info" style = "position:absolute;left:140px;top:176px">
+			  <a class="Info" href="#">Las Vegas,NV.USA</a>
+			</div>
+		    <div class="Rectangle-3-Cop">
+				
+				<ul class="Nav-Item-position">
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Attraction</a>
+			  		</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Tours</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item" href="#">Restanrants</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Hotels</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Flights</a>
+					</li>
+					<li class="Nav-List">
+						 <a class="Nav-Item-false" href="#">Cars</a>
+					</li>
+			  	</ul>
+			</div>
+			<div class="Rectangle-3-Copy"></div>
+		    	
+		    
+		    <div class = "Show-Filters">Show Filters</div>
+	      	<div class = "Triangle" onClick="ShowDiv(0)"></div>
+	      	
+	      	<div id = "Filter" class = "Filter" style = "position:relative;left:136px;top:492px">
+	      		<span class = "Filter-font" style = "position:absolute;left:24px;top:14px">Price</span>
+	      		<div style = "position:relative;left:24px;top:39px">
+				  	
+				  	<input  type="checkbox" id="price-1" name="price">
+				  	<label for="price-1">$ (less than $50) </label>
+					<input type="checkbox" id="price-2" name="price" >
+					<label for="price-2">$$($50 - $200)</label>
+					<input type="checkbox" id="price-3" name="price" >
+					<label for="price-3">$$$(more than $200) </label>
+					
+      			</div>
+	      		<span class = "Filter-font" style = "position:absolute;left:24px;top:125px">Rating</span>
+	 			<input style = "position:absolute;left:26px;top:157px" type="range" min="1" max="5" step="1" value="0" />
+      			<span class = "star-font" style = "position:absolute;left:24px;top:168px">1 star</span>
+      			<span class = "star-font" style = "position:absolute;left:121px;top:168px">5 star</span>
+      			
+	      		<span class = "Filter-font" style = "position:absolute;left:24px;top:205px">Cuisine(5)</span>
+	      		<span class = "Clear-Filter" style = "position:absolute;left:110px;top:210px" onClick="">Clear filter</span>
+	      		<div style = "position:absolute;left:24px;top:225px">
+				  	
+				  	<input  type="checkbox" id="us" name="country">
+				  	<label for="us">American</label>
+					<input type="checkbox" id="cn" name="country" >
+					<label for="cn">Chinese</label>
+					<input type="checkbox" id="ja" name="country" >
+					<label for="ja">Japanese</label>
+					<input type="checkbox" id="ko" name="country" >
+					<label for="ko">Korean</label>
+     				<input type="checkbox" id="th" name="country" >
+					<label for="th">Thai</label>
+     				<input type="checkbox" id="In" name="country" >
+					<label for="In">Indian</label>
+     				<input type="checkbox" id="ma" name="country" >
+					<label for="ma">Malaysian</label>
+     				<input type="checkbox" id="fr" name="country" >
+					<label for="fr">French</label>
+      			</div>
+	      	</div>
+	      	
+		</nav>
+		
+		<div>
+			<span class = "Res-info-position" style = "position: absolute;left:410px;top:109px">315 Restaurant in Las Vegas</span>
+			<span class = "Sort-by-Popularity" style = "position: absolute;left:410px;top:140px" onClick="">Sort by: Popularity</span>
+		</div>
+		
+		
+		<div class="Rectangle-img" style="position:absolute;left: 410px;top: 172px;">
+			<img src = "img/pic1.png"  width = "220" height="149" alt="pic1" />
+			
+			<a class = "Restaurant-Name">[Restaurants Name]</a>
+			<div style="position:absolute;left: 585px;top: 16px;">
+				<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+			</div>
+			<div style="position:absolute;left: 244px;top: 41px;">
+				<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+				<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+				<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+				<img src = "img/full_star.png"  width = "12" height="12" alt="pic1">
+				<img src = "img/empty_star.png"  width = "12" height="12" alt="pic1">
+			</div>
+			
+			<a class = "Res-info"> &nbsp;(947) &nbsp;&nbsp;|&nbsp;&nbsp;$$$&nbsp;&nbsp;|&nbsp;&nbsp; American </a>
+			
+			<div class = "Textarea">buasfjlk lasjkdjalkssdfsdfsdfsdfsdfsdfsdfsdfsdfsgjdklasjfvehwlajkasdaasdalksjaskfhasklfasjlkdhasldjkhasdkjahsdkasjdhasjlkdjaskldjasldjasdkasjdasjdaskldhasjkdhsdasfasfasdasddjsdlkajsdiqwjlscjkcuqjczmx</div>
+			
+			<button class = "Reserve">Reserve</button>
+			
+		</div>
+		
+		<div class="Rectangle-img" style="position:absolute;left: 410px;top: 334px;">
+			<img src = "img/pic1.png"  width = "220" height="149" alt="pic1" />
+			<a class = "Restaurant-Name">[Restaurants Name]</a> 
+			
+			<a class = "Res-info"> (947) &nbsp;&nbsp;|&nbsp;&nbsp;$$$&nbsp;&nbsp;|&nbsp;&nbsp; American </a>
+			
+			<div class = "Textarea">buasfjlk lasjkdjalkssdfsdfsdfsdfsdfsdfsdfsdfsdfsgjdklasjfvehwlajkasdaasdalksjaskfhasklfasjlkdhasldjkhasdkjahsdkasjdhasjlkdjaskldjasldjasdkasjdasjdaskldhasjkdhsdasfasfasdasddjsdlkajsdiqwjlscjkcuqjczmx</div>
+			
+			<button class = "Reserve">Reserve</button>
+			
+		</div>
+		
+		
+		<div class="Rectangle-img" style="position:absolute;left: 410px;top: 496px;">
+			<img src = "img/pic1.png"  width = "220" height="149" alt="pic1" />
+			<a class = "Restaurant-Name">[Restaurants Name]</a> 
+			
+			<a class = "Res-info"> (947) &nbsp;&nbsp;|&nbsp;&nbsp;$$$&nbsp;&nbsp;|&nbsp;&nbsp; American </a>
+			
+			<div class = "Textarea">buasfjlk lasjkdjalkssdfsdfsdfsdfsdfsdfsdfsdfsdfsgjdklasjfvehwlajkasdaasdalksjaskfhasklfasjlkdhasldjkhasdkjahsdkasjdhasjlkdjaskldjasldjasdkasjdasjdaskldhasjkdhsdasfasfasdasddjsdlkajsdiqwjlscjkcuqjczmx</div>
+			
+			<button class = "Reserve">Reserve</button>
+			
+		</div>
+		
+		
+		
+		
+		
+  <footer></footer>
+</div>
+
+
+</body>
+</html>
